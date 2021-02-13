@@ -48,7 +48,7 @@ C:\Users\ruby>mysql -u root -p
 
 方式三：通过其他的可视化工具软件：
 
-![WX20190725-112650](img\WX20190725-112650.png)
+![WX20190725-112650](img/WX20190725-112650.png)
 
 
 
@@ -108,7 +108,7 @@ mysql> show tables;
 
 
 
-![WX20190725-120545](img\WX20190725-120545.png)
+![WX20190725-120545](img/WX20190725-120545.png)
 
 
 
@@ -172,7 +172,7 @@ mysql> desc users;
 
 
 
-![WX20190725-143324](img\WX20190725-143324.png)
+![WX20190725-143324](img/WX20190725-143324.png)
 
 
 
@@ -182,7 +182,7 @@ mysql> desc users;
 mysql> show create table users;
 ```
 
-![WX20190725-143609](img\WX20190725-143609.png)
+![WX20190725-143609](img/WX20190725-143609.png)
 
 
 
@@ -251,7 +251,7 @@ alter table 表名 xxx。。。
        -> birthday date);
    ```
 
-   ![WX20190725-152709](img\WX20190725-152709.png)
+   ![WX20190725-152709](img/WX20190725-152709.png)
 
    
 
@@ -263,7 +263,7 @@ alter table 表名 xxx。。。
 
    
 
-![WX20190725-153114](img\WX20190725-153114.png)
+![WX20190725-153114](img/WX20190725-153114.png)
 
 
 
@@ -281,7 +281,7 @@ alter table 表名 xxx。。。
 mysql> alter table users change pwd password varchar(30);
 ```
 
-![WX20190725-153525](img\WX20190725-153525.png)
+![WX20190725-153525](img/WX20190725-153525.png)
 
 ​	
 
@@ -291,7 +291,7 @@ mysql> alter table users change pwd password varchar(30);
    mysql> alter table users drop birthday;
    ```
 
-![WX20190725-153854](img\WX20190725-153854.png)
+![WX20190725-153854](img/WX20190725-153854.png)
 
 
 
@@ -304,7 +304,7 @@ mysql> alter table users rename to user2;
 mysql> rename table user2 to user3;
 ```
 
-![WX20190725-154455](img\WX20190725-154455.png)
+![WX20190725-154455](img/WX20190725-154455.png)
 
 
 
